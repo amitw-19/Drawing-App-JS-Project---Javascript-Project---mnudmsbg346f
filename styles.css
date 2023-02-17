@@ -1,1 +1,54 @@
-
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+#container{
+    
+    
+    border: 2px solid purple;
+    
+}
+#myCanvas{
+    
+    width: 100%;
+    background-color: white;
+    
+    padding: 0;
+}
+#options{
+    padding: 20px 20px 5px 20px;
+    background-color: purple;
+    display: flex;
+    font-size: 40px;
+    text-align: center;
+}
+.square{
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+#size{
+    background-color: white;
+    font-size: 30px;
+    text-align: center;
+    
+}
+#brush{
+    margin-left: auto;
+}
+h1{
+    margin: auto;
+    color:white;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 40px;
+}
+#tip{
+    text-align: center;
+    background-color: purple;
+    color: white;
+    padding-bottom: 5px;
+    font-size: 20px;
+    
+}
